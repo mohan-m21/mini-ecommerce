@@ -11,7 +11,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 git branch: 'main',
-                url: 'https://github.com/YOUR_USERNAME/mini-ecommerce.git'
+                url: 'https://github.com/mohan-m21/mini-ecommerce.git'
             }
         }
 
